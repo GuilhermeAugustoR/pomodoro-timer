@@ -1,0 +1,29 @@
+.container {
+  text-align: left;
+}
+
+.slider {
+  height: 40px;
+  border: 2px solid var(--primary);
+  border-radius: 20px;
+}
+
+.thumb {
+  background: var(--primary);
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.slider.green {
+  border: 2px solid var(--secondary);
+}
+.slider.green .thumb {
+  background: var(--secondary);
+}
+
+.container-button {
+  text-align: center;
+  margin-top: 20px;
+}

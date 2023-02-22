@@ -1,0 +1,8 @@
+.with-text {
+  width: auto;
+}
+
+.with-text svg {
+  width: 60px;
+  cursor: pointer;
+}
